@@ -1,0 +1,131 @@
+.reward{
+    background-color: #e6e2e2;
+}
+
+.reward-container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.reward-container h3{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn-green{
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 50px;
+    border: none;
+    background: #00754a;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+.btn-green:hover{
+    background-color: #035537;
+}
+
+.app-info{
+    box-shadow: 0px 1px 3px rgba(0 0 0 / 10%), 0 2px 2px rgba(0 0 0 / 6%), 0 0 2px rgba(0 0 0 / 7%) ;
+}
+
+.text-container{
+    height: 80%;
+    text-align: center;
+    padding: 30px 230px;
+}
+
+.app-box{
+    padding: 0px 90px;
+    text-align: center;
+}
+
+.app-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.app-list img{
+    height: 60%;
+    width: 100%;
+}
+
+.app-list h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ios-app, .android-app{
+    background: #f9f9f9;
+}
+
+button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1440px){
+    .app-info,.reward-container{
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .reward-container{
+         height: 40px;
+    }
+   
+    .reward-container h3{
+        font-size: smaller;
+        margin-left: 10px;
+    }
+
+    .btn-green{
+        margin-top: 0px;
+        margin-right: 10px;
+        padding: 6px 12px;
+        font-size: small;
+    }
+
+    .text-container{
+        height: 70%;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    
+    .text-container p{
+        font-size: 16px;
+    }
+
+    .app-list{
+        grid-template-columns: 1fr;
+    }
+
+    .app-list img{
+        height: 50%;
+        width: 100%;
+    }
+
+    .app-list h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .app-box{
+        padding: 0px 0px;
+    }
+    button{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
