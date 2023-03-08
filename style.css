@@ -161,7 +161,7 @@ img{
 
 }
 
-.box-c h2{
+.social.box-c h2{
     color: var(--color-other);
     font-weight: 600;
     line-height: 1.1;
@@ -284,6 +284,10 @@ img{
 }
 
 /* Mobile Footer List menu */
+.mobile-menu-container{
+    display: none;
+}
+
 .mobile-list-items{
     display: flex;
     justify-content: space-between;
@@ -664,6 +668,9 @@ button a{
     }
     .footer-menu-container{
         display: none;
+    }
+    .mobile-menu-container{
+        display: block;
     }
     .footer-container{
     margin: 0px 0px;
